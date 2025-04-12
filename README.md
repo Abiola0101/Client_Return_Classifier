@@ -139,20 +139,6 @@ curl -X POST http://localhost:5000/predict \
 
 ---
 
-## Project Structure
-
-```
-Client_Return_Classifier/
-├── data/                      # Raw and processed data files
-├── model/                     # Saved model files (.pkl)
-├── notebooks/                 # Jupyter Notebooks for EDA, training, SHAP, LIME
-├── app.py                     # Flask app for prediction API
-├── requirements.txt           # Project dependencies
-├── README.md                  # Project documentation
-```
-
----
-
 ## Installation & Setup
 
 1. Clone the repository:
